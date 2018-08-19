@@ -1,0 +1,510 @@
+@import "http://fonts.fontstorage.com/import/montserrat.css";
+*{
+    margin:0;
+    padding: 0;
+}
+.container{
+    max-width: 1245px;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content:flex-end;
+}
+.nav-link{
+    color: #a0a0a0;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+
+.bg{
+    width: 100%;
+}
+h1{
+    font-size: 51px;
+    padding-top: 80px;
+    color: #333333;
+    font-family: 'Montserrat';
+}
+.creation-p{
+    color: #a0a0a0;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+.body-img{
+    background-image:url(../img/BS-testovii-verstka.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 68vh;
+    margin-top: 110px;
+}
+.lorem{
+    color: #a0a0a0;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+.sms{
+    color: #333333;
+    font-family: 'Montserrat';
+    font-size: 21px;
+    padding-top: 20px;
+}
+.career-div{
+    border: 1px solid #e5e5e5;
+    padding: 75px 20px 10px 20px;
+}
+.careers-div{
+    padding: 55px 0 10px 0;
+}
+.section{
+    padding-top: 150px;
+}
+.crs{
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+.no-margin{
+    margin: 0 !important;
+}
+
+.body{
+    margin-top: 150px;
+    background-image: url(../img/BS-testovii-verstka2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cont-body{
+    padding: 149px 0;
+}
+.img-btn{
+    padding-top: 15px;
+}
+.list-item{
+    padding-top: 150px;
+    padding-bottom: 145px;
+}
+.list{
+    padding-top: 30px;
+}
+ol{
+    padding-top: 30px;
+    padding-left: 15px;
+    line-height: 3;
+}
+.mm{
+    padding-top: 20px;
+}
+.slider{
+    background-color: #f9fafc;
+    padding-top: 150px;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1245px;
+  position: relative;
+  margin: auto;
+}
+.rows{
+    display: flex;
+    flex-direction: row;
+}
+.mySlides {
+    display: block;
+}
+
+.prev, .next {
+  cursor: pointer;
+  transition: 0.6s ease;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.numbertext {
+  color: #000;
+  font-size: 30px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 2px;
+  width: 25px;
+  margin: 0 2px;
+  background-color: #bbb;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.flex{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 55px;
+}
+.flex1{
+    margin-right: 25px;
+}
+.lo{
+    font-size: 19px !important;
+    padding-top: 15px;
+}
+.slider{
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.slider-row{
+    padding-bottom: 40px;
+}
+.container-2{
+    max-width: 1425px;
+    margin: 0 auto;
+}
+.hr{
+    width: 2.5px;
+    height: 90px;
+    background: #e8e8e8;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.column div{
+    align-self: center;
+}
+.ta-center{
+    text-align: center;
+    padding-top: 20px;
+}
+.work-with{
+    padding-top: 100px;
+    padding-bottom: 95px;
+}
+.or{
+    padding: 15px 0;
+    font-family: 'Montserrat';
+}
+.btn-a{
+    color: #333333;
+    border: 1px solid #cccccc;
+    padding: 18px 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family:'Montserrat';
+}
+.btn-a:hover{
+    border: 1px solid #35cc62;
+    background: #35cc62;
+    color: #fff;
+    text-decoration: none;
+}
+.btn{
+    margin-top: 40px;
+}
+.footer{
+    background-color: #333333;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.cre{
+    color: #fff;
+    font-size: 28px;
+    font-family: 'Montsarrat';
+    text-decoration: none;
+}
+.cre:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.ulli li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+.ulli{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.font{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.font li a{
+    text-decoration: none;
+    color: #d6d6d6;
+    width: 20px;
+    margin: 0 10px;
+}
+footer hr{
+    background: #484848;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.all{
+    color: #a1a1a1;
+    font-family: 'Montserrat';
+}
+.privacy li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Montserrat';
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+.privacy{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+.nav li a:hover{
+    border-bottom: 2px solid #000;
+}
+.nav li a{
+    border-bottom: 2px solid #fff;
+}
+meta{
+	display: block !important;
+}
+@media (max-width: 480px){
+    .rows{
+        display: block;
+    }
+    p{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    a{
+        text-align: center;
+    }
+    .font{
+        display: flex;
+        justify-content: center;
+    }
+    .privacy{
+        display: flex;
+        justify-content: center;
+    }
+    .hr{
+        display: none;
+    }
+    .or{
+        padding-top: 10vh;
+    }
+    .p-btn{
+        display: flex;
+        justify-content: center;
+    }
+    div{
+        padding-top: 0%;
+    }
+    .body-img{
+        padding-top: 30vh;
+        margin-top: 5vh;
+    }
+    .section{
+        padding-top: 0;
+    }
+    .icon-div{
+        display: flex;
+        justify-content: center;
+    }
+    .body{
+        margin-top: 50px;
+    }
+    .cont-body{
+        padding: 50px 0;
+    }
+    .list-item{
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+    .work-with{
+        padding-top: 50px;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .slider{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .footer{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    footer hr{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media( min-width: 481px) and (max-width: 640px){
+    .rows{
+        display: block;
+    }
+    p{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    a{
+        text-align: center;
+    }
+    .font{
+        display: flex;
+        justify-content: center;
+    }
+    .privacy{
+        display: flex;
+        justify-content: center;
+    }
+    .hr{
+        display: none;
+    }
+    .or{
+        padding-top: 10vh;
+    }
+    .p-btn{
+        display: flex;
+        justify-content: center;
+    }
+    div{
+        padding-top: 0%;
+    }
+    .body-img{
+        padding-top: 40vh;
+    }
+    .section{
+        padding-top: 0;
+    }
+    .icon-div{
+        display: flex;
+        justify-content: center;
+    }
+    .body{
+        margin-top: 50px;
+    }
+    .cont-body{
+        padding: 50px 0;
+    }
+    .list-item{
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+    .work-with{
+        padding-top: 50px;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .slider{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    .footer{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    footer hr{
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 641px) and (max-width: 767px){
+    p{
+        text-align: center;
+    }
+    h2{
+        text-align: center;
+    }
+    h3{
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+    }
+    a{
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+        padding-top: 30px;
+    }
+    .p-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .font{
+        display: flex;
+        justify-content: center;
+    }
+    .privacy{
+        display: flex;
+        justify-content: center;
+    }
+    .icon-div{
+        display: flex;
+        justify-content: center;
+    }
+    .body-img{
+        padding-top: 20vh;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .cont-body{
+        text-align: center;
+    }
+    .icon-div{
+        display: flex;
+        justify-content: center;
+    }
+    .body-img{
+        padding-top: 20vh;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1200px){
+    .cont-body{
+        text-align: center;
+    }
+    .icon-div{
+        display: flex;
+        justify-content: center;
+    }
+    .body-img{
+        padding-top: 20vh;
+    }
+}
